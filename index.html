@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Rantai Makanan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f9f9;
+            color: #333;
+        }
+        nav {
+            background-color: #4caf50;
+            overflow: hidden;
+            padding: 10px 0;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 8px 16px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #45a049;
+            border-radius: 5px;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        h2 {
+            color: #4caf50;
+        }
+        .question {
+            margin-bottom: 20px;
+        }
+        .options {
+            list-style: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 10px;
+        }
+        .options input[type="radio"] {
+            margin-right: 10px;
+        }
+        button {
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            border: 2px solid #4caf50;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            padding: 20px;
+            text-align: center;
+        }
+        .popup button {
+            margin-top: 20px;
+        }
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="latihan.html">Kuis</a></li>
+            <li><a href="#materi">Materi</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Materi Rantai Makanan</h1>
+        <p> Pengertian, Fungsi, dan Contohnya</p>
+    </header>
+    <div class="container">
+        <section id="pengantar" class="content">
+        <h2>Pengantar</h2>
+            <p>Pengertian  Rantai Makanan –  Manusia bukanlah satu-satunya mahkluk yang hidup di muka bumi ini. Ada banyak mahkluk hidup yang tumbuh dan berkembang berdampingan dengan manusia. Sebagai sesama mahkluk hidup yang menempati bumi, antara mahkluk hidup pasti terjadi interaksi.Restoran terbaik di dekat sini</p>
+                <p>   Hubungan antar mahkluk hidup yang saling mempengaruhi ini akan menghasilkan sebuah ekosistem. Dalam lingkungan ekosistem, terdapat hubungan antara jaring-jaring makanan yang saling terkait.</p>
+                <p>Ekosistem juga dapat diartikan sebagai suatu sistem ekologi yang di dalamnya terdapat hubungan timbal balik antara keanekaragaman spesies dengan siklus materi serta arus energi melalui komponen-komponen yang terdapat di dalamnya.</p>
+            <img src="singa.jpg" alt="Ilustrasi rantai makanan">
+        </section>
+        <section id="materi" class="content">
+            <h2>A. Pengertian Rantai Makanan</h2>
+            <p>Rantai makanan adalah serangkaian proses makan dan dimakan antara mahkluk hidup berdasar urutan tertentu yang terdapat peran produsen, konsumen dan decomposer (pengurai) untuk kelangsungan hidup.
+
+                Secara sederhana rantai makanan bisa dilihat secara runtut dari produsen, konsumen dan pengurai. Lain halnya dengan jaring-jaring makanan. Jaring-jaring makanan adalah gabungan dari rantai makanan yang saling terhubung, dan tumpang tindih dalam suatu ekosistem.</p>
+
+        <section id="materi" class="content">
+            <h2>B. Fungsi Rantai / Jaring-jaring Makanan</h2>
+        </section>
+        <p>Beberapa ilmuwan menyebut tingkatan setiap organisme dalam jaringan makanan dengan istilah tingkat trofik. Tingkat trofik tersebut menentukan bagaimana energi mengalir melalui ekosistem.</p>
+        <p>Berikut ini beberapa fungsi jarring-jaring makanan yang perlu kamu ketahui:</p>
+
+        <ol>
+            <li>
+                Menggambarkan interaksi langsung antar spesies yang ada pada ekosistem itu sendiri, sehingga hubungan antar spesies bisa dibedakan mana yang termasuk dalam spesies basal, spesies peralihan dan mana yang menjadi spesies predator puncak.
+            </li>
+            <li>
+                Sebagai penyederhana dalam memahami suatu hubungan antar spesies dan berfungsi dalam mempelajari kontrol bawah ke atas maupun kontrol atas ke bawah dalam suatu struktur komunitas.
+            </li>
+            <li>Mempelajari kontrol atas ke bawah ataupun kontrol bawah ke atas didalam suatu struktur atau bentuk komunitas.</li>
+        </ol>
+           
+        <section id="latihan" class="content">
+            <h2>C. Proses Rantai Makanan</h2>
+            <p>Proses makan dan dimakan dalam rantai makanan ini berlangsung secara terus menerus dengan perannya masing masing, seperti produser, konsumen, dan pengurai atau dekomposer.</p>
+            <ol>
+                <li>Produsen adalah organisme yang mampu membuat makanannya sendiri.</li>
+                <li>Konsumen yaitu makhluk hidup yang bergantung pada makhluk lain karena dia tidak bisa memproduksi makanan sendiri seperti produsen.</li>
+                <li>Pengurai adalah organisme terakhir dalam  rantai makanan. Karena pengurai merupakan organisme yang mampu mengubah zat organik menjadi zat anogarnik.</li>
+            </ol>
+        </section>
+        <video controls style="width: 600;" height="360">
+            <source src="video.mp4" type="video/mp4"/> 
+        </video>
+        <section id="kontak" class="content">
+            <h2>Kontak</h2>
+            <p>Jika ada pertanyaan, silakan hubungi <a href="mailto:guru@smpcontoh.sch.id">guru@smpcontoh.sch.id</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Pembelajaran Rantai Makanan SMP Kelas 7</p>
+    </footer>
+</body>
+</html>
